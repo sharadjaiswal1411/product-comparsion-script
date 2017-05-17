@@ -1,7 +1,10 @@
 # original package
 https://github.com/jsartisan/shopkart-laravel/
 Upgarding package for laravel 5.4
-Upgrading dependies phpunit and guzzle http
+<br/>
+Upgrading dependencies phpunit and guzzle http
+<br/>
+Creating support for snapdeal
 
 <h2>Please Don't use, Still in development</h2>
 Shopkart-Laravel is a very simple package for laravel for making call to Flipkart and Amazon Search APIs.

@@ -1,5 +1,6 @@
-# original package
-https://github.com/jsartisan/shopkart-laravel/
+<h2>original package</h2>
+
+https://github.com/jsartisan/shopkart-laravel/ <br/>
 Upgarding package for laravel 5.4
 <br/>
 Upgrading dependencies phpunit and guzzle http
@@ -11,23 +12,11 @@ Shopkart-Laravel is a very simple package for laravel for making call to Flipkar
 
 <h2>Installing Shopkart-Laravel</h2>
 
-<p>Pull this package in through Composer.</p>
+<p>Install through Composer.</p>
 
-```js
-#composer.json
+composer require phpscots/product-comparison dev-master
 
-{
-    "require": {
-        "sharadjaiswal1411/product-comparsion-script": "0.1.*"
-    }
-}
-```
 
-<p>then run the composer update.</p>
-
-<code>
-	composer update
-</code>
 
 
 <p>Next, add the service provider to app/config/app.php. :</p>

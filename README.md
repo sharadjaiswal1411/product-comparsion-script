@@ -1,5 +1,9 @@
-# Shopkart-Laravel
-<h2>Please Donot use, Still in development</h2>
+# original package
+https://github.com/jsartisan/shopkart-laravel/
+Upgarding package for laravel 5.4
+Upgrading dependies phpunit and guzzle http
+
+<h2>Please Don't use, Still in development</h2>
 Shopkart-Laravel is a very simple package for laravel for making call to Flipkart and Amazon Search APIs.
 
 <h2>Installing Shopkart-Laravel</h2>
@@ -99,4 +103,4 @@ Shopkart-Laravel is a very simple package for laravel for making call to Flipkar
 <p>This will return list of flipkart products from their api based on keyword specified.('PS3' in our case).</p>
 
 <p>First parameter of flipkart search method is the keyword and second parameter is the result count i.e. number or product you want from api. ( max 10 ).</p>
-<h2>Please Donot use, Still in development</h2>
+<h2>Please Don't use, Still in development</h2>

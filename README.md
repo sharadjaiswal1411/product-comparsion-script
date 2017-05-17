@@ -1,5 +1,5 @@
 # Shopkart-Laravel
-
+<h2>Please Donot use, Still in development</h2>
 Shopkart-Laravel is a very simple package for laravel for making call to Flipkart and Amazon Search APIs.
 
 <h2>Installing Shopkart-Laravel</h2>
@@ -30,7 +30,7 @@ Shopkart-Laravel is a very simple package for laravel for making call to Flipkar
 
 'providers' => [
     // ..
-    SharadJaiswal\EKart\ShopkartServiceProvider::class,
+    Phpscots\ProductSearch\ProductSearchServiceProvider::class,
     
 ]
 ```
@@ -42,7 +42,7 @@ Shopkart-Laravel is a very simple package for laravel for making call to Flipkar
 
 'aliases' => [
     // ..
-    'Shopkart'  => SharadJaiswal\EKart\Facades\Shopkart::class,
+    'ProductSearch'  => Phpscots\ProductSearch\Facades\ProductSearch::class,
     
 ]
 ```
@@ -63,6 +63,12 @@ Shopkart-Laravel is a very simple package for laravel for making call to Flipkar
 	'flipkart' => [
 		'client_id'     	=>  'your_flipkart_client_id',
 		'client_secret' 	=>  'your_flipkart_client_secret',
+		'country'       	=>  '',
+		'tag'           	=>  ''
+	],
+	'snapdeal' => [
+		'client_id'     	=>  'your_snapdeal_client_id',
+		'client_secret' 	=>  'your_snapdeal_client_secret',
 		'country'       	=>  '',
 		'tag'           	=>  ''
 	],
@@ -93,3 +99,4 @@ Shopkart-Laravel is a very simple package for laravel for making call to Flipkar
 <p>This will return list of flipkart products from their api based on keyword specified.('PS3' in our case).</p>
 
 <p>First parameter of flipkart search method is the keyword and second parameter is the result count i.e. number or product you want from api. ( max 10 ).</p>
+<h2>Please Donot use, Still in development</h2>

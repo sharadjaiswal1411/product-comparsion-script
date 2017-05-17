@@ -1,6 +1,6 @@
-<?php namespace JSArtisan\Shopkart\Providers;
+<?php namespace Phpscots\ProductSearch\Providers;
 
-use JSArtisan\Shopkart\Contracts\Provider;
+use Phpscots\ProductSearch\Contracts\Provider;
 
 class FlipkartProvider extends AbstractProvider implements Provider{
 
@@ -51,7 +51,7 @@ class FlipkartProvider extends AbstractProvider implements Provider{
 	}
 
 	/**
-	 * Maps raw products to Shopkart Product Instance
+	 * Maps raw products to ProductSearch Product Instance
 	 * 
 	 * @return string
 	 */
@@ -66,11 +66,11 @@ class FlipkartProvider extends AbstractProvider implements Provider{
 	}
 
 	/**
-	 * Map the products array to Shopkart Products Instance.
+	 * Map the products array to ProductSearch Products Instance.
 	 *
 	 * @param  array $user
 	 * 
-	 * @return \App\Acme\Shopkart\Providers\Product
+	 * @return \ProductSearch\Providers\Product
 	 */
 	protected function mapProductsToObject(array $product)
 	{

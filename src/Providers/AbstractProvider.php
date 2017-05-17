@@ -1,6 +1,6 @@
-<?php namespace JSArtisan\Shopkart\Providers;
+<?php namespace Phpscots\ProductSearch\Providers;
 
-use JSArtisan\Shopkart\Contracts\Provider as ProviderContract;
+use Phpscots\ProductSearch\Contracts\Provider as ProviderContract;
 
 abstract class AbstractProvider implements ProviderContract {
     
@@ -141,10 +141,10 @@ abstract class AbstractProvider implements ProviderContract {
     abstract function products();
 
     /**
-     * Map the products array to Shopkart Products Instance.
+     * Map the products array to ProductSearch Products Instance.
      *
      * @param  array  $user
-     * @return \App\Acme\Shopkart\Providers\Product
+     * @return ProductSearch\Providers\Product
      */
     abstract protected function mapProductsToObject( array $product);
 

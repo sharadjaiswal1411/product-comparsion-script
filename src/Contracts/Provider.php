@@ -1,4 +1,4 @@
-<?php namespace JSArtisan\Shopkart\Contracts;
+<?php namespace Phpscots\ProductSearch\Contracts;
 
 interface Provider{
 

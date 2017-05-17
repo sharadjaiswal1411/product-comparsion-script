@@ -1,7 +1,7 @@
-<?php namespace JSArtisan\Shopkart\Providers;
+<?php namespace Phpscots\ProductSearch\Providers;
 
-use JSArtisan\Shopkart\AbstractProduct;
-use JSArtisan\Shopkart\Contracts\Provider;
+use Phpscots\ProductSearch\AbstractProduct;
+use Phpscots\ProductSearch\Contracts\Provider;
 
 use SoapClient;
 use SoapHeader;
@@ -99,7 +99,7 @@ class AmazonProvider extends AbstractProvider implements Provider
 	}
 
 	/**
-	 * Maps raw products to JSArtisan/Shopkart/Product Instance
+	 * Maps raw products to Phpscots/ProductSearch/Product Instance
 	 * 
 	 * @return string
 	 */
@@ -430,10 +430,10 @@ class AmazonProvider extends AbstractProvider implements Provider
 	}
 
 	/**
-	 * Map the products array to Shopkart Products Instance.
+	 * Map the products array to ProductSearch Products Instance.
 	 *
 	 * @param  array $user
-	 * @return \Jsartisan\Shopkart\Providers\Product
+	 * @return \Phpscots\ProductSearch\Providers\Product
 	 */
 	protected function mapProductsToObject(array $product)
 	{

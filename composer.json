@@ -1,6 +1,6 @@
 {
-    "name": "jsartisan/shopkart-laravel",
-    "description": "Simple Product Search Package for Flipkart & Amazon",
+    "name": "phpscots/product-comparison",
+    "description": "Product Search/advertisement Package for Flipkart & Amazon & Snapdeal",
     "license": "MIT",
     "keywords": ["flipkart","amazon"],
     "authors": [
@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "SharadJaiswal\\EKart\\": "src"
+            "Phpscots\\ProductSearch\\": "src"
         }
     }
 }

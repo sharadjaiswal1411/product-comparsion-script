@@ -1,10 +1,10 @@
-<?php namespace JSArtisan\Shopkart\Providers;
+<?php namespace Phpscots\ProductSearch\Providers;
 
-use JSArtisan\Shopkart\AbstractProduct;
+use Phpscots\ProductSearch\AbstractProduct;
 
 /**
  * Class Product
- * @package App\Acme\Shopkart\Providers
+ * @package \ProductSearch\Providers
  */
 class Product extends AbstractProduct
 {

@@ -1,4 +1,4 @@
-<?php namespace JSArtisan\Shopkart;
+<?php namespace Phpscots\ProductSearch;
 
 abstract class AbstractProduct{
 

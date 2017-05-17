@@ -1,4 +1,4 @@
-<?php namespace JSArtisan\Shopkart\Contracts;
+<?php namespace Phpscots\ProductSearch\Contracts;
 
 interface Factory
 {
@@ -7,7 +7,7 @@ interface Factory
      * Get an Provider Implementation
      *
      * @param  string  $driver
-     * @return \Jsartisan\Shopkart\Contracts\Provider
+     * @return \Phpscots\ProductSearch\Contracts\Provider
      */
     public function driver($driver = null);
 }

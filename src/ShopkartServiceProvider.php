@@ -1,8 +1,8 @@
-<?php namespace JSArtisan\Shopkart;
+<?php namespace Phpscots\ProductSearch;
 
 use Illuminate\Support\ServiceProvider;
 
-class ShopkartServiceProvider extends ServiceProvider
+class ProductSearchServiceProvider extends ServiceProvider
 {
 
     /**
@@ -12,8 +12,8 @@ class ShopkartServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->bindShared('Shopkart', function ($app) {
-            return new Shopkart($app);
+        $this->app->bindShared('ProductSearch', function ($app) {
+            return new ProductSearch($app);
         });
     }
 

@@ -12,9 +12,9 @@ class ProductSearchServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->bindShared('ProductSearch', function ($app) {
-            return new ProductSearch($app);
-        });
+        $this->app->singleton('ProductSearch', function ($app) {
+			return new ProductSearch($app);
+		});
     }
 
 }

@@ -110,7 +110,7 @@ abstract class AbstractProvider implements ProviderContract {
      */
     protected function getHttpClient()
     {
-        return new  \Guzzle\Http\Client;
+        return new  \GuzzleHttp\Client;
     }
     
     /**
